@@ -1,0 +1,61 @@
+.App{
+    
+    background: #2192FF;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmyJu5C0EDSsawaUButdfVCNoMoDcz6wJjYw&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    overflow: hidden;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+}
+.search{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.data_location{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+}
+.residents{
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.resident_card{
+    display: flex;
+    gap: 20px;
+}
+.resident_info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+}
+.search_options{
+    list-style: none;
+    z-index: 1;
+    overflow: hidden;
+    position: fixed;
+    margin-top: 400px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.space_search{
+    display: flex;
+}
